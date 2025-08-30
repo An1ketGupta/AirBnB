@@ -11,7 +11,7 @@ export default function DropDownMenu(){
         window.addEventListener("resize",handleresize)
     },[])
 
-    return <div className="flex items-center h-[12vh] gap-4">
+    return <div className="flex items-center h-[12vh] gap-2">
         <div>
             {screenwidth > 1100 && (
             <Button className="h-10 rounded-xl" variant="ghost">
