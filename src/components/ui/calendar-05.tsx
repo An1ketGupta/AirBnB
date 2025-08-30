@@ -22,7 +22,7 @@ export default function Calendar05() {
         before: new Date(today),
       }}
       numberOfMonths={2}
-      className="rounded-lg border shadow-sm"
+      className="relative mt-10 rounded-lg -left-40 border shadow-sm"
     />
   )
 }

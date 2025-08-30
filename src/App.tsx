@@ -1,5 +1,5 @@
-import Body from "./Sections/Body"
-import Footer from "./Sections/Footer/footer"
+import Body from "./Sections/Body/Body"
+import Footer from "./Sections/Footer/Footer"
 import Navbar from "./Sections/Navbar/Navbar"
 
 export default function App(){
